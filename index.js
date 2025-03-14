@@ -32,15 +32,5 @@ function removeFirstCat() {
     return cats.slice(1);
 }
 
-// Export functions if required for tests
-module.exports = { 
-    cats, 
-    destructivelyAppendCat, 
-    destructivelyPrependCat, 
-    destructivelyRemoveLastCat, 
-    destructivelyRemoveFirstCat, 
-    appendCat, 
-    prependCat, 
-    removeLastCat, 
-    removeFirstCat 
-};
+
+ 
